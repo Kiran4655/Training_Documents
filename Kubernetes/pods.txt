@@ -34,7 +34,7 @@ kubectl describe pod nginx-pod
 3. Test & Delete
 
 # To get inside the pod
-kubectl exec -it nginx-pod -- /bin/sh
+kubectl exec -it nginx-pod -- bash
 
 # Create test HTML page
 cat <<EOF > /usr/share/nginx/html/test.html
